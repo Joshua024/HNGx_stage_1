@@ -3,11 +3,19 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
 .container {
+    width: 400px;
+    height: auto;
     text-align: center;
     padding: 20px;
-    background-image: linear-gradient(to top right, blue, red);
+    background-image: linear-gradient(to top right, red, blue);
     color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 .element {
     margin: 10px;
@@ -31,6 +39,7 @@ img:hover{
     transform: scale(1.5);
 }
 a{
+    display: block;
     transition: 1s;
 }
 a:link{
