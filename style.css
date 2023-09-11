@@ -1,54 +1,55 @@
 /*CSS styling*/
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .container {
-    width: 400px;
-    height: auto;
-    text-align: center;
-    padding: 20px;
-    background-image: linear-gradient(to top right, red, blue);
-    color: white;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px grey;
+  width: 400px;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to top right, red, blue);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px grey;
 }
 .element {
-    margin: 10px;
-    font-size: 18px;
+  margin: 10px;
+  font-size: 18px;
 }
 
-[data-image-holder]{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 5px solid lightgreen;
-    margin: 0 auto;
-    overflow: hidden;
+[data-image-holder] {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid lightgreen;
+  margin: 0 auto;
+  overflow: hidden;
 }
-img{
-    width: 250px;
-    height: 250px;
-    transition: 3s;
+img {
+  width: 220px;
+  height: 220px;
+  transition: 3s;
 }
-img:hover{
-    transform: scale(1.5);
+img:hover {
+  transform: scale(1.5);
 }
-a{
-    display: block;
-    transition: 1s;
+a {
+  display: block;
+  transition: 1s;
 }
-a:link{
-    color: white;
+a:link {
+  color: white;
 }
-a:visited{
-    color: greenyellow;
+a:visited {
+  color: greenyellow;
 }
-a:hover{
-    text-decoration: none;
-    font-size: 20px;
+a:hover {
+  text-decoration: none;
+  font-size: 20px;
 }
