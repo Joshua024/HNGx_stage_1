@@ -1,0 +1,45 @@
+/*CSS styling*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to top right, blue, red);
+    color: white;
+}
+.element {
+    margin: 10px;
+    font-size: 18px;
+}
+
+[data-image-holder]{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid lightgreen;
+    margin: 0 auto;
+    overflow: hidden;
+}
+img{
+    width: 250px;
+    height: 250px;
+    transition: 3s;
+}
+img:hover{
+    transform: scale(1.5);
+}
+a{
+    transition: 1s;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 20px;
+}
